@@ -89,7 +89,12 @@ Write a function "reverseString" to programmatically reverse a given string (es.
 Write a function "upperFirst" to capitalize the first letter of each word of a given string passed as a parameter.
 */
 
-/* WRITE YOUR CODE HERE */
+        const upperFirst = function(string){
+            let convert = string.charAt(0).toUpperCase()
+            convert += convert.substring(1)
+            return console.log(convert)
+        }
+        upperFirst("hello")
 
 /* EXERCISE 9
 Write a function "cutString" to create a new string without the first and last character of a given string.
